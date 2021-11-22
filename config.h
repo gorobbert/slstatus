@@ -68,5 +68,5 @@ static const struct arg args[] = {
     { cpu_perc, "CPU %2s/100    ",      NULL             },
     { battery_perc, "BAT %2s/100    ",       "BAT0" }, 
     { run_command, "VOL %2s/100    ", "/bin/sh -c \"amixer get Master | tail -n1 | grep -Po '\\[\\K[^%]*' | head -n1\"" },
-    { datetime, "%s",           "%Y:%m:%d %H:%M" },
+    { datetime, "%s",           "%Y-%m-%d %H:%M" },
 };
